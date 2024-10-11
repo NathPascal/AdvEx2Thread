@@ -1,4 +1,4 @@
-package fr.fms.Test;
+package fr.fms.Test; //2.2
 
 public class TestRunnable implements Runnable{
 
@@ -7,7 +7,7 @@ public class TestRunnable implements Runnable{
 	public void run() {
 		
 		for(int i = 1; i < 11; i ++) {
-			System.out.print((char)(32 + i));
+			System.out.print((char)(32 + i)); // table ASCII
 			for(int j = 0; j<i; j++ ) {
 			System.out.print("*");
 			}
